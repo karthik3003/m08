@@ -1,0 +1,39 @@
+{
+  "name": "car",
+  "plural": "car",
+  "base": "Checkpoint",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "bugatti": {
+      "type": "string",
+      "required": true,
+      "default": "12.0"
+    },
+    "audi": {
+      "type": "string",
+      "required": true,
+      "default": "6.0"
+    },
+    "BMW": {
+      "type": "string",
+      "default": "6.4"
+    },
+    "mercedes": {
+      "type": "string",
+      "required": true,
+      "default": "6.8"
+    },
+    "maruhi": {
+      "type": "string",
+      "required": true,
+      "default": "800"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
